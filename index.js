@@ -38,6 +38,7 @@ async function run() {
     });
 
     // Post cofee details in client side
+
     app.post("/details", async (req, res) => {
       const newCoffee = req.body;
       console.log(newCoffee);
